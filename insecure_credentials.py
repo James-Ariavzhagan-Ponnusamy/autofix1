@@ -9,4 +9,4 @@ def connect_to_database():
 
 if __name__ == "__main__":
   db_connection = connect_to_database()
-  print("connected to database")
+  print(f"connected to database : {db_connection}")
